@@ -6317,7 +6317,7 @@ else
                     <type>0</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>system.run[&quot;ps -u fmserver -o state,comm&quot;,wait]</key>
+                    <key>system.run[&quot;ps -u fmserver,fmsase -o state,comm&quot;,wait]</key>
                     <delay>30s</delay>
                     <history>90d</history>
                     <trends>0</trends>
